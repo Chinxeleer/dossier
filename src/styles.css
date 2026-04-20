@@ -127,4 +127,10 @@
   html {
     @apply font-mono;
     }
+
+  nav{
+    background: var(--color-foreground);
+    color: var(--color-background);
+    @apply flex items-center justify-between p-4 px-30;
+  }
 }
